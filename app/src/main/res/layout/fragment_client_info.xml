@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ClientInfoFragment"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tvClientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/teal_700"/>
+
+    <TextView
+        android:id="@+id/tvClientAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvClientDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
